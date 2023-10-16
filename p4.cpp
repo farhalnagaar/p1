@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
     cout << "Hello world!" << endl;
-    int w;
+    int WEIGHT;
     cout <<"Enter THE WEIGHT =   " ;
-    cin >> w ;
-    if (w !=2 && w %2==0){
+    cin >> WEIGHT ;
+    if (WEIGHT !=2 && w %2==0){
         cout << "YES";
     }else {
     cout << "NO";}
