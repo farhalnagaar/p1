@@ -14,18 +14,15 @@ int main()
     cout << "Enter c=  ";
     cin >> c;
 
-    //d=a+b+c;
-   // d1=a*b*c;
-   // d2=a-b-c;
-    if (d=a+b+c){
+    if (d==a+b+c){
         cout << "yes , a+b+c=d"<< endl;
     }
-     // else if (d=a*b*c){
-        //cout << "yes , a*b*c=d"<< endl;
-    //}
-      //else if (d=a-b-c){
-       // cout << "yes , a-b-c=d"<< endl;
-    //}
+      else if (d==a*b*c){
+        cout << "yes , a*b*c=d"<< endl;
+    }
+      else if (d==a-b-c){
+        cout << "yes , a-b-c=d"<< endl;
+    }
     else {
         cout << "no"<< endl;
     }
