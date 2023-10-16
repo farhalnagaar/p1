@@ -6,11 +6,11 @@ int main()
 {
 
     cout << "Hello world!" << endl;
-    int wiegh;
-    cout << "enter the wiegh" ;
-    cin>> wiegh;
+    int age;
+    cout << "enter the age" ;
+    cin>> age;
 
-    if (wiegh %2 ==0){
+    if (age %2 ==0){
         cout<< "lucky"<<endl;
     }
     else {
