@@ -8,15 +8,15 @@ int main()
     int a,b,c;
     cin >> a>>b>>c;
     if (a>b && a>c && b>c && c<a){
-        //swap (a ,b);
+        
         cout << c<< "   "<<b<<"  " << a;
     }
     else if (b>a && b>c && c<a &&c<b ){
-        //swap (b ,c);
+        
         cout << c<< "   "<<a<<"  "<< b;
     }
     else if (b>a && b>c && c>a && c<b){
-        //swap (a ,c);
+        
         cout << a<< "   "<<c <<"  "<< b;}
 
     else if (c>a && c>b && b>a && b<c){
