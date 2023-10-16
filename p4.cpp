@@ -8,7 +8,7 @@ int main()
     int WEIGHT;
     cout <<"Enter THE WEIGHT =   " ;
     cin >> WEIGHT ;
-    if (WEIGHT !=2 && w %2==0){
+    if (WEIGHT !=2 && WEIGHT %2==0){
         cout << "YES";
     }else {
     cout << "NO";}
